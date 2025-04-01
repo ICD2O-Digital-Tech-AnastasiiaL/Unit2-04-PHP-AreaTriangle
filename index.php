@@ -25,10 +25,10 @@
 		?>
 		<!-- form to get the base and height from the user -->
     <form action="./results.php" method="post" target="results">
-      <label for=lblBase">Base (mm):</label>
-      <input type="text" id="base" placeholder="Enter the base (mm)" name="base"><br><br>
-      <label for="lblHeight">Height (mm):</label>
-      <input type="text" id="height" placeholder="Enter the height (mm)" name="height"><br><br>
+      <label for=lblBase">Base (cm):</label>
+      <input type="text" id="base" placeholder="Enter the base (cm)" name="base"><br><br>
+      <label for="lblHeight">Height (cm):</label>
+      <input type="text" id="height" placeholder="Enter the height (cm)" name="height"><br><br>
       <input type="submit" value="Calculate Area">
 		</form>
 
